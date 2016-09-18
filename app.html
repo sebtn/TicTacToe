@@ -1,0 +1,38 @@
+<!-- Use JADE -->
+body.own-fluid-container.margintop
+  .row.modal-box.margin-auto
+    .div(class="modal fade", id="modal", role="dialog")
+      .div(class="modal-dialog")
+        .div.modal-content
+          button(type="button", class="btn btn-default pull-left", data-dismiss="modal") &times;
+          h3 Human : Choose Mark
+          h3 
+            button(id= 'X', value = 'X', class="btn btn-default btn", data-toggle="modal", data-target="#modal") X   
+            span  |
+            button(id = 'O', value='O', class="btn btn-default btn", data-toggle="modal", data-target="#modal")  O
+            
+     .div(class="button-choose pull-left") 
+       button(class="btn btn-default btn ", data-toggle="modal", data-target="#modal" ) START
+    .div(class="button-choose pull-right")   
+       button(class="btn btn-default", id="Reset", value="Reset") RESET
+    .div#span   
+      span#playerInfo.notice
+   .shadow.nm-nr 
+     .div
+      .row      
+         img#0.img-symbol(src="https://dl.dropboxusercontent.com/u/8198791/Solid_white.png") 
+         img#1.img-symbol(src="https://dl.dropboxusercontent.com/u/8198791/Solid_white.png")
+         img#2.img-symbol(src="https://dl.dropboxusercontent.com/u/8198791/Solid_white.png")
+      .row         
+        img#3.img-symbol(src="https://dl.dropboxusercontent.com/u/8198791/Solid_white.png") 
+        img#4.img-symbol(src="https://dl.dropboxusercontent.com/u/8198791/Solid_white.png") 
+        img#5.img-symbol(src="https://dl.dropboxusercontent.com/u/8198791/Solid_white.png")
+      .row
+        img#6.img-symbol(src="https://dl.dropboxusercontent.com/u/8198791/Solid_white.png")
+        img#7.img-symbol(src="https://dl.dropboxusercontent.com/u/8198791/Solid_white.png")
+        img#8.img-symbol(src="https://dl.dropboxusercontent.com/u/8198791/Solid_white.png")
+
+   h3.margined Tic-Tac-Toe - by Seb
+
+
+
