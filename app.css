@@ -1,0 +1,60 @@
+
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower'
+body
+  background: #335B96
+  font-family: 'Indie Flower', cursive
+  color: black
+
+.own-fluid-container
+  padding: 0
+  margin: 0 auto
+  width: 335px
+  text-align: center
+ 
+.margin-auto 
+  margin: 0 auto
+  text-align: center
+  
+.shadow 
+  -webkit-box-shadow: 13px 17px 32px 1px rgba(0,0,0,0.75), inset -99px -100px 147px -129px rgba(0,0,0,0.55)
+  -moz-box-shadow: 13px 17px 32px 1px rgba(0,0,0,0.75), inset -99px -100px 147px -129px rgba(0,0,0,0.55)
+  box-shadow: 13px 17px 32px 1px rgba(0,0,0,0.75), inset -99px -100px 147px -129px rgba(0,0,0,0.55)
+
+.btn:hover, btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus
+  box-shadow: none
+  border-bottom: 0px solid #111111
+  background-color: white
+  color: black
+  outline: none    
+  
+img
+  border: 1px black solid
+  width: 95px
+  height: 90px
+
+.row
+  display: inline
+  margin: 0
+  
+.nm-nr 
+  margin: 0
+  padding: 10px
+  background-color: #966F33
+  border: 3px #83612c solid
+  
+.btn
+  border: 0px white
+  border-radius: 0
+  height: auto
+  font-size: 1.25em
+  margin-bottom: 12px
+  font-weight: 800
+  
+.notice
+  color: #FF0080
+  font-size: 2.2em
+  font-style: bold
+  font-weigth: 800
+
+.margintop
+  margin-top: 0.5em
